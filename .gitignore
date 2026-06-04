@@ -1,1 +1,25 @@
+# Go build artifacts
 *.exe
+*.test
+*.out
+/bin/
+/dist/
+/tmp/
+
+# Test coverage
+coverage.out
+*.coverprofile
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
